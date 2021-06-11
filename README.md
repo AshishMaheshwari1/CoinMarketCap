@@ -6,6 +6,13 @@
 * Cucumber
 * RestAssured
 
+# Setup
+* Import project as a maven project
+* Update Browser in config.properties file
+* Update test data in featue file if required
+* Run Individual feature file or run both using test runner class
+
+
 # FrontEnd test 
 Frontend test are covered in "UIScenario.Feature". To exeute only frontend test run UIRunner.java under testrunners folder
 
