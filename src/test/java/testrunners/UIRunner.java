@@ -11,11 +11,11 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		
 		monochrome = true,
-		glue = { "parallel" },
-		features = { "src/test/resources/parallel" }
+		glue = { "Stepdef" },
+		features = { "src/test/resources/parallel/UIScenario.feature" }
 )
 
-public class MyTestRunner extends AbstractTestNGCucumberTests {
+public class UIRunner extends AbstractTestNGCucumberTests {
 	@Override
 	@DataProvider(parallel = true)
 	public Object[][] scenarios() {

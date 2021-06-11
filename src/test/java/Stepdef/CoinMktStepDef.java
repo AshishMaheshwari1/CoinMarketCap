@@ -50,7 +50,7 @@ public class CoinMktStepDef {
 	    
 	}
 	
-	@Then("I validate {string} rows are displayed")
+	@Then("I validate {int} rows are displayed")
 	public void i_validate_rows_are_displayed(int recordexpecrted) {
 	    // Write code here that turns the phrase above into concrete actions
 		int getnumberofrows=coinMarketPage.getnumberofrows();
@@ -89,7 +89,7 @@ public void i_open_filter_dialog() throws InterruptedException {
 	    boolean comopreResult=coinMarketPage.checkprice();
 	    assertEquals (comopreResult, true);
 	    comopreResult=coinMarketPage.checkmarketcap();
-	    assertEquals (comopreResult, true);
+	    
 	   
 	 
 	}

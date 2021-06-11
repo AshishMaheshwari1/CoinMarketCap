@@ -1,4 +1,4 @@
-package Stepdef;
+package testrunners;
 
 import org.testng.annotations.DataProvider;
 
@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		monochrome = true,
 		glue = { "Stepdef" },
-		features = { "src/test/resources/parallel/APIScenario.feature" }
+		features = { "src/test/resources/parallel/" }
 )
 
 public class ParallelRun extends AbstractTestNGCucumberTests {
