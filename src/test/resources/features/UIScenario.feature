@@ -18,5 +18,5 @@ And I open filter dialog
 And I select filter criteria
 | filtername | MinRange | MaxRange |
 | MarketCap | $1,000,000,000 | $10,000,000,000 |
-| price | $1 | $100 |
+| price | $1 | $101 |
 And I validate filtering results are correct

@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		monochrome = true,
 		glue = { "Stepdef" },
-		features = { "src/test/resources/parallel/" }
+		features = { "src/test/features/parallel/" }
 )
 
 public class ParallelRun extends AbstractTestNGCucumberTests {

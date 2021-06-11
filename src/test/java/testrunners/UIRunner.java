@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		monochrome = true,
 		glue = { "Stepdef" },
-		features = { "src/test/resources/parallel/UIScenario.feature" }
+		features = { "src/test/resources/features/UIScenario.feature" }
 )
 
 public class UIRunner extends AbstractTestNGCucumberTests {
